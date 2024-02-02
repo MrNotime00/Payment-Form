@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    font-size: 17px;
+}
+.main{
+    display: flex;
+}
+
+.container{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 50%;
+}
+.container2{
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 50%;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+fieldset,
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius:5px ;
+    margin: 10px;
+}
+fieldset{
+    background-color: white;
+}
+h1{
+    text-align: center;
+}
+button[type="Pay Now"]{
+    background-color: lightgreen;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover{
+    background-color: darkgreen;
+}
+
+.img1{
+width: 100%;
+}
+.container2, p{
+    font-size: 15px;
+}

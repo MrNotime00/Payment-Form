@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <div class="container">
+        <form action="" method="get">
+            <h1>PAYMENT FORM</h1>
+            <hr>
+            <h2>User Information</h2>
+            <p>Full Name: *
+                <input type="text" required name="name" placeholder="" required>
+            </p>
+            <p> Gender:*
+                <fieldset>
+                    Male <input type="radio" name="gender" id="male" value="M" required> Female <input type="radio" name="gender" id="female" value="F" required>
+                </fieldset>
+            </p>
+            <p>
+                Address:*
+                <br>
+                <textarea placeholder="Enter your address" name="adress" id="address"cols="83" rows="10" ></textarea> 
+            </p>
+            <p>
+                Email:*
+                <input type="Email" name="email" id="email" required placeholder="xyz@gmail.com">
+            </p>
+            <p>
+                Pincode:*
+                <input type="number" name="pincode" id="pincode" placeholder="000000">
+            </p>
+            <h2>Payment Information</h2>
+            <p>Card Type:*
+                <select name="card_type" id="card_type" required>
+                    <option value="">--Select Card Type</option>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="rupay">Rupay</option>
+                </select>
+            </p>
+            <p>
+                Card Number:*
+                <input type="number" name="number" id="Card Number" placeholder="1111-2222-3333-4444" required>
+            </p>
+            <p>
+                <form action="/action_page.php">
+                    <label for="Expiration Date">Expiration Date:*</label>
+                    <input type="date" id="Expiration Date" name="Expiration Date">
+                
+                  </form>
+            </p>
+            <p>
+                CVV:*
+                <input type="number" name="number" id="CVV" placeholder="123" required>
+            </p>
+            <p>
+                <button type="Pay now">Pay Now</button>
+            </p>
+
+
+        </form>
+
+    </div>
+    <div class="container2">
+<p>
+   <b> 1.Credit Card Payment:</b><br>
+    Please enter your credit card information below.<br>
+    Include fields for Card Number, Expiration Date, CVV, and Cardholder Name.<br>
+    Make sure the payment page is secure and uses encryption (HTTPS). <br><br>
+
+    <b>2.PayPal Payment:</b><br>
+    Click the "Pay with PayPal" button to proceed.<br>
+    You will be redirected to the PayPal website.<br>
+    Log in to your PayPal account or choose the option to pay with a credit/debit card.<br><br>
+
+    <b>3.Bank Transfer Payment:</b><br>
+    Here are our bank details for a wire transfer:<br>
+    Bank Name: [Your Bank Name]<br>
+    Account Name: [Your Company Name]<br>
+    Account Number: [Your Account Number]<br>
+    Routing/IBAN Number: [Your Routing/IBAN Number]<br>
+    Reference/Message: Please include your order/invoice number as the reference.<br>
+    After completing the transfer, please email proof of payment to [Your Email Address].<br><br>
+
+    <b>4.Check Payment:</b><br>
+    Make checks payable to [Your Company Name].<br>
+    Mail checks to [Your Company Address].<br>
+    Please include your order/invoice number on the memo line of the check.<br>
+    Your order will be processed once the check is received and cleared.<br><br>
+
+    <b>5.Stripe Payment:</b><br>
+    Enter your credit card details below.<br>
+    Click the "Submit Payment" button.<br>
+    You will receive a confirmation email once the payment is successful.<br><br>
+
+    <b>6.Square Payment:</b><br>
+    Enter your card information and billing address.<br>
+    Click the "Pay with Square" button.<br>
+    Your payment will be processed securely through Square.<br><br>
+
+    <b>7.Venmo Payment:</b><br>
+    Send the payment to our Venmo account: @[Your Venmo Username].<br>
+    Please include your order/invoice number in the payment note.<br><br>
+
+    <b>8.Cash Payment (In-Person):</b><br>
+    If you plan to pay in cash, please visit our office at [Your Office Address].<br>
+    Our business hours are [Your Business Hours].<br>
+    Please bring the exact amount in cash.<br><br>
+
+    <b>9.Cryptocurrency Payment:</b><br>
+    Choose your preferred cryptocurrency (e.g., Bitcoin, Ethereum).<br>
+    Scan the QR code or copy the wallet address provided.<br>
+    Send the specified amount to the wallet address.<br>
+    Please allow some time for blockchain confirmation.<br><br>
+
+    <b>10.Apple Pay/Google Pay:</b><br>
+    Click the "Apple Pay" or "Google Pay" button to proceed.
+    Follow the on-screen instructions to complete the payment.</p>
+<img src="img1.png" class="img1">
+    </div>
+</div>
+</body>
+</html>
